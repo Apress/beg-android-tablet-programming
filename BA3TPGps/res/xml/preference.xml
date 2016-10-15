@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:title="Distance for Warning" android:key="distance"></EditTextPreference>
+    <CheckBoxPreference android:key="wakeup" android:summary="Notify when getting close to destination" android:title="Wakup"></CheckBoxPreference>
+    <RingtonePreference android:key="ringtone" android:ringtoneType="notification|alarm" android:showDefault="true" android:title="Notification Sound"></RingtonePreference>
+    <CheckBoxPreference android:key="buzz" android:summary="Vibrate when target reached." android:title="Vibrate"></CheckBoxPreference>
+    <CheckBoxPreference android:summary="Will correct compass if it is 90 degress out." android:title="Remap Compass" android:key="remap"></CheckBoxPreference>
+</PreferenceScreen>

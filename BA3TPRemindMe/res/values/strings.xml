@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Welcome to Remind Me</string>
+    <string name="app_name">BA3TPRemindMe</string>
+    <string name="phonelbl">Phone</string>
+    <string name="messagelbl">Messsage</string>
+    <string name="nodata">No Data</string>
+</resources>

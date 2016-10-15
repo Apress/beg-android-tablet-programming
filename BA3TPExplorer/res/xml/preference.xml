@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<CheckBoxPreference android:key="showhidden"
+		android:title="Show Hidden" android:summary="Display Hidden Files">
+	</CheckBoxPreference>
+	<ListPreference android:entries="@array/sortOrder"
+		android:key="sortorder" android:title="Sort Order"
+		android:entryValues="@array/sortOrder">
+	</ListPreference>
+	<CheckBoxPreference android:key="groupfolders"
+		android:title="Group Folders" android:summary="Sort folders seperately from files">
+	</CheckBoxPreference>
+	<CheckBoxPreference android:title="Show Owner"
+		android:key="showowner">
+	</CheckBoxPreference>
+	<CheckBoxPreference android:title="Show Permissions"
+		android:key="showperms">
+	</CheckBoxPreference>
+</PreferenceScreen>

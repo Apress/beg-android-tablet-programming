@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Contacts" android:id="@+id/menuSearch" android:icon="@android:drawable/ic_menu_search"></item>
+    <item android:icon="@android:drawable/ic_menu_send" android:id="@+id/menuSend" android:title="Send Now"></item>
+    <item android:id="@+id/menuSetAlarm" android:title="Set Alarm" android:icon="@android:drawable/ic_menu_day"></item>
+    <item android:id="@+id/menuShowAlarms" android:title="Alarms"></item>
+    <item android:id="@+id/menuPreferences" android:title="Preferences" android:icon="@android:drawable/ic_menu_preferences"></item>
+    <item android:id="@+id/menuTestTTS" android:title="Test TTS"></item>
+</menu>

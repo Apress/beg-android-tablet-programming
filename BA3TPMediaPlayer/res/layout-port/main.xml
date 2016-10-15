@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+	<fragment class="com.apress.ba3tp.mediaplayer.ListFragment"
+		android:id="@+id/frag_list" 
+		android:layout_height="0px"
+		android:layout_width="match_parent"
+		android:layout_weight="1"
+		 />
+
+	<fragment class="com.apress.ba3tp.mediaplayer.ContentFragment"
+		android:id="@+id/frag_content" 
+		android:layout_height="0px" 
+		android:layout_width="match_parent"
+		android:layout_weight="1" 
+		/>
+</LinearLayout>
+

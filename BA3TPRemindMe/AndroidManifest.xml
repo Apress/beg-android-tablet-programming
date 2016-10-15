@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.apress.ba3tp.remindme"
+      android:versionCode="1"
+      android:versionName="1.0">
+<uses-permission android:name="android.permission.SEND_SMS"></uses-permission>
+<uses-sdk android:targetSdkVersion="11"></uses-sdk>
+<uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@android:style/Theme.Holo.Light">
+        <activity android:name=".MainActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="WakeupHandler"></receiver>
+        <activity android:name="AlarmList"></activity>
+        <activity android:name="Preferences"></activity>
+        <receiver android:name="SmsReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"></action>
+            </intent-filter>
+        </receiver>
+        <service android:name=".SmsReceiveService"></service>
+
+    </application>
+</manifest>

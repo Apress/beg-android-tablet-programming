@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:padding="8dp">
+	<TableRow android:layout_height="wrap_content" android:id="@+id/TableRow01" android:layout_width="wrap_content">
+		<Button android:text="Timers" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:onClick="onTimersClick"
+			android:id="@+id/Button01"></Button>
+		<TextView android:layout_height="wrap_content"
+			android:text="Examples of using Handler to implement timers."
+			android:id="@+id/TextView01" android:layout_width="0dp" android:layout_weight="1"></TextView>
+	</TableRow>
+	<TableRow android:layout_height="wrap_content" android:id="@+id/tableRow02"
+		android:layout_width="match_parent">
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/Button02" android:text="AsynchTask" android:onClick="onAsynch">
+			</Button>
+		<TextView android:layout_height="wrap_content"
+			android:id="@+id/textView1" android:layout_width="wrap_content" android:text="Example use of AsynchTask" android:onClick="onAsynch"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<Button android:layout_width="wrap_content" android:id="@+id/Button03" android:layout_height="wrap_content" android:text="Download" android:onClick="onDownload"></Button>
+		<TextView android:onClick="onAsynch" android:layout_width="wrap_content" android:id="@+id/TextView02" android:layout_height="wrap_content" android:text="Example use of Download Manager"></TextView>
+	</TableRow>
+	<TableRow android:id="@+id/TableRow02" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<Button android:layout_height="wrap_content" android:id="@+id/Button04" android:layout_width="wrap_content" android:text="Animation" android:onClick="onAnimation"></Button>
+		<TextView android:id="@+id/TextView03" android:layout_height="wrap_content" android:onClick="onAsynch" android:layout_width="wrap_content" android:text="Example use of Animations"></TextView>
+	</TableRow>
+	<TableRow android:layout_width="wrap_content" android:id="@+id/TableRow03" android:layout_height="wrap_content">
+		<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/Button05" android:text="USB" android:onClick="onUsb"></Button>
+		<TextView android:id="@+id/TextView04" android:layout_height="wrap_content" android:layout_width="wrap_content" android:onClick="onAsynch" android:text="A quick look at USB (3.1 and up)"></TextView>
+	</TableRow>
+</TableLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:icon="@android:drawable/ic_media_pause" android:id="@+id/menuPause"
+		android:showAsAction="ifRoom" android:onClick="pauseClick"
+		android:title="Pause"></item>
+	<item android:id="@+id/menuClear" android:title="Clear"
+		android:onClick="clearClick" android:icon="@android:drawable/ic_menu_delete"
+		android:showAsAction="ifRoom"></item>
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<ToggleButton android:text="ToggleButton" android:id="@+id/toggleButton2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOff="GPS" android:onClick="onGpsClick"></ToggleButton>
+		<ToggleButton android:id="@+id/toggleButton1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textOn="Compass" android:textOff="Compass" android:onClick="onCompassClick"></ToggleButton>
+		<ToggleButton android:layout_height="wrap_content" android:text="ToggleButton" android:layout_width="wrap_content" android:id="@+id/btnWake" android:textOn="Wake" android:textOff="Wake" android:onClick="onWakeClick"></ToggleButton>
+		<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Set Target" android:id="@+id/button2" android:onClick="onSetTargetClick"></Button>
+	</LinearLayout>
+	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="24sp" android:id="@+id/eDistance" android:textStyle="bold" android:layout_gravity="center" android:text="Distance"></TextView>
+	<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dip">
+		<ImageView android:src="@drawable/icon" android:id="@+id/imageView1" android:layout_gravity="center" android:layout_width="128dip" android:layout_height="128dip"></ImageView>
+	<TextView android:text="Orientation" android:layout_height="wrap_content" android:id="@+id/eOrientation" android:layout_width="128dip" android:layout_margin="4dip"></TextView>
+	</LinearLayout>
+	<ScrollView android:id="@+id/scrollView1" android:layout_height="wrap_content" android:layout_width="match_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Display"
+		android:id="@+id/eDisplay" android:scrollbars="vertical"></TextView>
+	</ScrollView>
+</LinearLayout>

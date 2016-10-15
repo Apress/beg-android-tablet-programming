@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/scrollView1"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="wrap_content">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="vertical" android:id="@+id/LinearLayout2">
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:text="@string/hello" />
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/textView1"
+			android:text="@string/phonelbl"></TextView>
+		<EditText android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:inputType="phone"
+			android:hint="Phone" android:id="@+id/ePhone"></EditText>
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/textView2"
+			android:text="@string/messagelbl"></TextView>
+		<EditText android:layout_width="match_parent" android:id="@+id/eMessage"
+			android:hint="Message" android:includeFontPadding="true"
+			android:fadeScrollbars="true" android:scrollbars="vertical"
+			android:lines="3" android:minLines="3" android:layout_height="wrap_content"
+			android:inputType="textMultiLine|textCapSentences|textAutoCorrect"></EditText>
+		<DatePicker android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/eDatePicker" />
+		<TimePicker android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/eTimePicker" />
+		<DigitalClock android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:typeface="normal"
+			android:textStyle="bold" android:text="DigitalClock"
+			android:textSize="24sp" android:id="@+id/digitalClock1"></DigitalClock>
+	</LinearLayout>
+</ScrollView>

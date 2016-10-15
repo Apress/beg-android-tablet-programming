@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<Button android:layout_width="wrap_content" android:id="@+id/button1"
+			android:layout_height="wrap_content" android:text="List"
+			android:onClick="onListClick"></Button>
+		<Button android:text="Light" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/button2"
+			android:onClick="onLightClick"></Button>
+		<Button android:text="Mag" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/button3"
+			android:onClick="onMagClick"></Button>
+		<Button android:text="Orient" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/button4"
+			android:onClick="onOrientClick"></Button>
+		<Button android:text="Acc" android:layout_height="wrap_content"
+			android:id="@+id/button5" android:layout_width="wrap_content"
+			android:onClick="onAccClick"></Button>
+		<Button android:text="Prox" android:layout_height="wrap_content"
+			android:id="@+id/button6" android:layout_width="wrap_content"
+			android:onClick="onProxClick"></Button>
+	</LinearLayout>
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Display"
+		android:id="@+id/eDisplay"></TextView>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+    <TextView android:text="TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textStyle="bold" android:id="@+id/tvTitle"></TextView>
+    <TextView android:text="TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tvInfo"></TextView>
+    <SeekBar android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/seekBar1"></SeekBar>
+    <ScrollView android:layout_height="wrap_content" android:id="@+id/scrollView1" android:layout_width="match_parent">
+        <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:id="@+id/tvDump" android:text="TextView" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+    </ScrollView>
+    <SurfaceView android:id="@+id/surfaceView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></SurfaceView>
+</LinearLayout>

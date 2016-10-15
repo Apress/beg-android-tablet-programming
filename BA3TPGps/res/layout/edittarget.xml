@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_height="wrap_content" android:id="@+id/textView1" android:text="Title" android:layout_width="wrap_content"></TextView>
+        <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight="9" android:id="@+id/eTgtTitle"></EditText>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_height="wrap_content" android:id="@+id/textView2" android:text="Latitude" android:layout_width="wrap_content"></TextView>
+        <EditText android:layout_height="wrap_content" android:keepScreenOn="true" android:layout_width="match_parent" android:layout_weight="9" android:id="@+id/eTgtLatitude"></EditText>
+    </TableRow>
+    <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_height="wrap_content" android:editable="true" android:id="@+id/textView3" android:layout_width="wrap_content" android:text="Longitude"></TextView>
+        <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_weight="9" android:id="@+id/eTgtLongitude"></EditText>
+    </TableRow>
+</TableLayout>

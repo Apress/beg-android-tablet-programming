@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, from Robbie!</string>
+    <string name="app_name">AFT3Hello</string>
+    <string name="hellobtn">Hi there.</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView android:layout_height="wrap_content" android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="center" android:layout_width="match_parent" android:text="Download Test"></TextView>
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:hint="Download URL" android:inputType="textUri" android:text="http://dl.dropbox.com/u/31213604/ba3tp.pdf" android:textSize="24sp" android:id="@+id/eURL">
+        <requestFocus></requestFocus>
+    </EditText>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="match_parent">
+        <Button android:layout_height="wrap_content" android:onClick="clickDownload" android:layout_width="wrap_content" android:id="@+id/btnDownload" android:text="Download"></Button>
+        <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button1" android:onClick="clickView" android:text="View Downloads"></Button>
+        <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ckAutoOpen" android:text="Auto Open" android:checked="false"></CheckBox>
+    </LinearLayout>
+    <TextView android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:id="@+id/eInfo" android:text="Info"></TextView>
+    <ListView android:id="@+id/listView1" android:layout_height="wrap_content" android:layout_width="match_parent"></ListView>
+    
+</LinearLayout>
